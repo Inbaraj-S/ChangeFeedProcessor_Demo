@@ -1,0 +1,7 @@
+Feature,Change feed processor,Pull model
+Keeping track of current point in processing change feed , Lease (stored in an Azure Cosmos DB container) , Continuation token (stored in memory or manually persisted)
+Ability to replay past changes , Yes - with push model , Yes - with pull model
+Polling for future changes , Automatically checks for changes based on user-specified WithPollInterval , Manual
+Process changes from entire container , Yes. Automatically parallelized across multiple threads/machine consuming from the same container , Yes. Manually parallelized using FeedTokens
+Process changes from just a single partition key , Not supported , Yes
+Support level , Generally available , Preview
