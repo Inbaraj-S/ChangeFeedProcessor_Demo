@@ -1,4 +1,4 @@
-package com.example.walmart.cfp;
+package com.example.demo.cfp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

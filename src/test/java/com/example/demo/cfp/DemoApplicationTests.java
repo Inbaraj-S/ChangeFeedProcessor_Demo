@@ -1,4 +1,4 @@
-package com.example.walmart.cfp;
+package com.example.demo.cfp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
